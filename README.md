@@ -7,6 +7,7 @@ python3 peer.py <ip:port> <file.xxx> {ip_peers:port}
 *Exemplo:* Rede com cinco peers
 
 1 - Inicie os peers
+
 python peer.py 127.0.0.1:60001 keys1.txt 127.0.0.3:60003 127.0.0.2:60002
 
 python peer.py 127.0.0.2:60002 keys2.txt 127.0.0.1:60001 127.0.0.5:60005
