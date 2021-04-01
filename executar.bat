@@ -1,5 +1,5 @@
 @ECHO OFF
-cd C:\Users\Fernando\Desktop\UFMG\2020_2\[RC]-Redes_de_Computadores\tp3\
+cd PATH/TO/CODE
 start cmd /k python peer.py 127.0.0.1:60001 keys1.txt 127.0.0.3:60003 127.0.0.2:60002
 start cmd /k python peer.py 127.0.0.2:60002 keys2.txt 127.0.0.1:60001 127.0.0.5:60005
 start cmd /k python peer.py 127.0.0.3:60003 keys3.txt 127.0.0.1:60001 127.0.0.5:60005
